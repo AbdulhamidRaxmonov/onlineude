@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.divbody{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+.nav1{
+    width: 100%;
+    height: 10vh;
+    background-color: coral;
+    
+}
+.sidebar1{
+    width: 10%;
+    height: 90vh;
+    background-color: chartreuse;
+    display: inline-flex;
+}
+.main1{
+    width: calc(90% - 5px);
+    height: 90vh;
+    background-color: cornflowerblue;
+    display: inline-flex;
+    float: right;
+}
